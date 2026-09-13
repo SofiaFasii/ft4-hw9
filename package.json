@@ -1,0 +1,26 @@
+{
+  "name": "ft4-hw9",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://sofiafasii.github.io/ft4-hw9/",
+  "bugs": {
+    "url": "https://github.com/SofiaFasii/ft4-hw9/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofiaFasii/ft4-hw9.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  }
+}

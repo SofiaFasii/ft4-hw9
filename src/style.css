@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    font-size: 20px;
+    gap: 3px;
+}
+input{
+    font-size: 20px;
+}
+.btnSave{
+    margin-top: 12px;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+}
+.phoneList{
+    font-size: 22px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    width: 240px;
+    height: 160px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+li button {
+    padding: 3px;
+}
